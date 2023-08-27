@@ -1,0 +1,21 @@
+{
+    "name": "keith_pennington/child-theme",
+    "description": "Composer dependencies for child theme",
+    "type": "project",
+    "require": {
+        "composer/composer": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChildTheme\\": "Classes",
+            "Style\\": "Classes/Style"
+        }
+    },
+    "authors": [
+        {
+            "name": "Keith Pennington",
+            "email": "keith.penn27@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

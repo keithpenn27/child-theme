@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.sass","layout/container.sass"],"names":[],"mappings":"AAGA,KACE,sBCJF,KACE","file":"../main.min.css","sourcesContent":["$primary-color: #0067ee  \r\n$secondary-color: #e4f871\r\n\r\nbody\r\n  background-color: #fff\r\n\r\n@import layout/container.sass\r\n","main\r\n  background-color: #000\r\n  "]}
