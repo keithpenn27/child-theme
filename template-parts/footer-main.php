@@ -13,6 +13,17 @@
 * @subpackage Child Theme
 * @since Parent Theme 1.0
 */
+?>
 
-wp_footer(  );
+      </main><!-- #main -->
+    </div><!-- #primary -->
+  </div><!-- #content -->
+
+  <footer id="colophon" class="site-footer">
+  </footer><!--#colphon-->
+</div><!--#page-->
+
+<?php
+
+wp_footer();
 ?>

@@ -14,7 +14,14 @@
 * @since Parent Theme 1.0
 */
 
-get_header(  );
+get_template_part( 'template-parts/header', 'main' );
+?>
+<header class="page-header alignwide">
+  <h1 class="page-title">
+    <?php echo sprintf( '<a class="ct-link link" href="%s">%s</a>', get_bloginfo('url'), get_bloginfo( 'name' ) ) ?>
+  </h1>
+</header><!-- .page-header -->
+<?php 
 
 if ( have_posts(  ) ) {
   while ( have_posts(  ) ) {
@@ -23,5 +30,5 @@ if ( have_posts(  ) ) {
   }
 }
 
-get_footer(  );
+get_template_part( 'template-parts/footer', 'main' );
 ?>
