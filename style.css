@@ -1,0 +1,16 @@
+/*
+Theme Name: Child Theme
+Theme URI: git@github.com:keithpenn27/child-theme.git
+Author: Keith Pennington
+Author URI: git@github.com:keithpenn27
+Description: Child theme that use Parent Theme as a base for custom theme designs.
+Tags: Bootstrap, Responsive, React, Custom
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 6.3
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: parent-theme
+Template: parent-theme
+*/
